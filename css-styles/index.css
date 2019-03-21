@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import './navbar.css';
+@import './forms.css';
+@import './resume.css';
+@import './about-me.css';
+@import './animation.css';
+@import './portfolio.css';
+@import './sidebar.css';
+
+
+*{
+  margin: 0;
+}
+
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  max-height: 100vh;
+  max-width: 100wv;
+}  
+
+h1{
+  font-family: Helvetica, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+h2{
+  font-family: Helvetica, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 21px;
+}
+
+.homepage-container{
+  background-size: cover; 
+  background-position: fixed;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(94,123,143,1) 0%, rgba(172,192,205,1) 90% );
+}
+
+.homepage{
+  height: 100vh;
+  text-align: center;
+  /* margin: 15vh; */
+  display: flex;
+}
+
+.textbox{
+  height: 50vh;
+  width: 50vh;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+

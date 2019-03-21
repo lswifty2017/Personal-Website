@@ -1,0 +1,45 @@
+.aboutme-background{
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme-container{
+  /* border: black 1px dotted; */
+  width: 70%;
+  height: 80%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme-image{
+  background-image: url(../images/opera-house.jpg);
+  background-size: contain; 
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 60%;
+  display:flex;
+  padding: 5% 5% 5% 5%;
+}
+
+.aboutme-description-container{
+  width: 70%;
+  height: 80%;
+  /* border: black 1px dotted; */
+  display:flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aboutme-description-paragraph{
+  width: 75%;
+  height: 80%;
+  /* border: black 1px dotted; */
+  display:flex;
+  flex-wrap: wrap;
+}

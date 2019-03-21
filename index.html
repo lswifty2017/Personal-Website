@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Liam-Swift</title>
+      <link rel="stylesheet" href="./css-styles/index.css"> 
+  </head>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+
+
+  <body>
+
+  <div class="sidebar-container">
+    <a href = "mailto:l.swift94@gmail.com">
+      <div class="sidebar-email"></div>
+    </a>
+    <a href = "https://www.linkedin.com/in/liam-swift/" target="_blank">
+      <div class="sidebar-linkedin"></div>
+    </a>
+    <a href = "https://github.com/lswifty2017" target="_blank">
+      <div class="sidebar-github"></div>
+    </a>
+  </div>
+
+
+
+    <div id = "home">
+      <div class = "homepage-container">
+        <div class = "homepage">
+          <div class = "textbox"> 
+            <figure class="ball"></figure>
+            <h1>Welcome.</h1>
+          </div>
+        </div>
+        <nav id = "navbar">    
+          <div class = "navbar-container">
+            <a href="#home">
+              <div class = "navbar-options"> Home </div>
+            </a>
+            <a href="#about-me">
+              <div class = "navbar-options"> About Me </div>
+            </a>        
+            <a href="#portfolio">
+                <div class = "navbar-options"> Porfolio </div>
+            </a> 
+            <a href="#resume">
+                <div class = "navbar-options"> Resume </div>
+            </a>
+            <a href="#contact">
+                <div class = "navbar-options"> Contact </div>
+            </a>  
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div id = "about-me">
+      <div class = "aboutme-background">
+        <div class ="aboutme-container">
+          <div class = "aboutme-image"></div>
+          <div class="aboutme-description-container">
+            <div class="aboutme-description-paragraph">
+              <h1>Hello I'm Liam.</h1>
+              <h2>I'm an engineer, ex-teacher and aspiring developer.</h2>
+              <p>I've spent a few years working in 3D scanning and printing 
+                and last year completed a year teaching Maths and Physics at 
+                Bundoora Secondary College. </p>
+              <p>I'm a classic introvert, but I love people. You'll find me at the beach most weekends surfing my life away.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id = "portfolio">
+      <div class="portfolio-background">
+        <div class="portfolio-container">
+          <h1>Portfolio Coming Soon.</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id = "resume">
+      <div class = "resume-container">
+          <div class = "resume-grid">
+
+            <div class="resume-name">
+              <div class="resume-photo"></div>
+              <h1>Liam Swift</h1>
+            </div>
+            
+            <div class = "resume-experience">
+              <h2>Work Experience</h2>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id = "contact">
+      <form action="https://formspree.io/l.swift94@gmail.com" method="POST">
+        <div class = "form-container">
+          <div class = "form-textbox">
+            <h1>Keep in touch.</h1>
+            <div class = "small-form">
+              <input type="text" name="name" placeholder="Full Name">
+            </div>
+            <div class="small-form">
+              <input type="text" name="email" placeholder="Email Address">
+            </div>
+            <div class="large-form">
+                <textarea class="form-message" name="message" placeholder="Write Something..."></textarea>
+            </div>
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+
+  <!-- --------------------Nav Bar Hide JS -------------------------->
+
+  <!-- <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          }   
+          else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+  }
+  </script> -->
+   
+  </body> 
+
+
+
+</html>

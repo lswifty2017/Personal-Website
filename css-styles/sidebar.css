@@ -1,0 +1,61 @@
+.sidebar-container{
+  width: 50px;
+  height: 130px;
+  position: fixed;
+  right: 7vw;
+  top: 15vh;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.sidebar-email{
+  background-image: url(../images/Email\ Icon.png);
+  height: 22px;
+  width: 22px;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  padding-bottom: 15px;
+}
+
+.sidebar-email:hover{
+  animation-delay: 2s;
+  -webkit-transition-duration: 600ms;
+  transition-duration: 600ms;
+  opacity: 0.4;
+}
+
+
+
+.sidebar-linkedin{
+  background-image: url(../images/Linkedin.png);
+  height: 22px;
+  width: 22px;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  padding-bottom: 16px;
+}
+
+.sidebar-linkedin:hover{
+  animation-delay: 2s;
+  -webkit-transition-duration: 600ms;
+  transition-duration: 600ms;
+  opacity: 0.4;
+}
+
+.sidebar-github{
+  background-image: url(../images/GitHub-Mark-64px.png);
+  height: 22px;
+  width: 22px;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  padding-bottom: 15px;
+}
+
+.sidebar-github:hover{
+  animation-delay: 2s;
+  -webkit-transition-duration: 600ms;
+  transition-duration: 600ms;
+  opacity: 0.4;
+}

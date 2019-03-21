@@ -1,0 +1,16 @@
+.portfolio-background{
+  background-color: rgba(201, 207, 211, 1);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-container{
+  width: 80%;
+  height: 80%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
