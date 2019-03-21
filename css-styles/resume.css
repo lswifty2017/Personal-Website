@@ -7,13 +7,17 @@
   align-items: center;
 }
 
+.resume-container p{
+  font-size: 12px;
+}
+
 .resume-grid{
   width: 80vw;
   height: 80vh;
   /* background: white; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 0.8fr 0.7fr 0.5fr;  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.4fr 0.7fr 0.3fr;  
 }
 
 .resume-name {
@@ -22,17 +26,17 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 2% 5%;
+  margin: 2% 2%;
+  padding: 1% 1%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .resume-photo{
   background-image: url(../images/resume.jpg);
   width: 30%;
-  height: 70%;
+  height: 100%;
   background-size: contain; 
   background-repeat: no-repeat;
-  margin-right: 3%;
 }
 
 .resume-experience{
@@ -41,6 +45,43 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 2% 5%;
+  margin: 2% 2%;
+  padding: 1% 1%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.resume-interests{
+  grid-row: 3 / 3;
+  grid-column: 2 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 2%;
+  padding: 3% 3%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.resume-education{
+  grid-row: 2 / 2;
+  grid-column: 2 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 2%;
+  padding: 3% 3%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.resume-skills{
+  grid-row: 1 / 1;
+  grid-column: 2 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 2%;
+  padding: 3% 3%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
