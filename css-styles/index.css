@@ -42,7 +42,6 @@ h2{
 
 .homepage-container{
   background-size: cover; 
-  background-position: fixed;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(94,123,143,1) 0%, rgba(172,192,205,1) 90% );
 }
 
@@ -64,10 +63,14 @@ h2{
 
 .footer{
   width: 100vw;
-  height: 10vh;
+  height: 3vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+}
+
+.footer p{
+  font-size: 100%;
 }
 
 /* Changes made by Aaron */

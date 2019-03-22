@@ -13,9 +13,9 @@
   }
 }
 
-.homepage:hover .ball {
+.homepage-container:hover .ball {
   animation-name: slide;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-timing-function: ease;
   animation-delay: .5s;
   animation-direction: alternate-reverse;
@@ -26,6 +26,17 @@
   opacity: 0.3;
   border-radius: 55%;
   height: 55px;
-  position: relative;
+  position: absolute;
   width: 55px;
 }
+
+.ball:hover{
+  background: red;
+  background-size: contain;
+  opacity: 0.3;
+  border-radius: 55%;
+  height: 55px;
+  position: absolute;
+  width: 55px;
+}
+
