@@ -59,46 +59,58 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.resume-experience-grid{
-  height: 70%;
+.resume-experience-container{
+  height: 80%;
   width: 50%;
   margin-top: 4%;
   border: black 1px solid;
-  display:grid;
-  grid-template-columns: 0.2fr 0.8fr;
-  grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;  
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .resume-experience-tfa-icon{
   background-image: url(../images/TFA.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 70%;
-  width: 80%;
-  grid-row: 1 / 1;
-  grid-column: 1 /1;
-  display:flex;
-  align-self: center;
-  justify-self: center;
+  height: 15%;
+  width: 15%;
+  margin: 2%;
 }
 
-.resume-experience-tfa{
-  height: 80%;
-  width: 80%;
-  grid-row: 1 / 1;
-  grid-column: 2 / 2;
-  padding-left: 10%;
-  display:flex;
-  flex-direction: column;
-  align-self: center;
-  justify-self: center;
+.resume-experience-sx-icon{
+  background-image: url(../images/SX.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15%;
+  width: 15%;
+  margin: 2%;
+}
+
+.resume-experience-gom-icon{
+  background-image: url(../images/gom.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15%;
+  width: 15%;
+  margin: 2%;
+}
+
+.resume-experience-rmit-icon{
+  background-image: url(../images/RMIT.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15%;
+  width: 15%;
+  margin: 2%;
 }
 
 
-
-
-
-
+.resume-experience-description{
+  height: 27%;
+  width: 70%;
+}
 
 .resume-interests{
   grid-row: 3 / 3;
