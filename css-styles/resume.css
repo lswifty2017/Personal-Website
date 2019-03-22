@@ -33,7 +33,7 @@
   grid-column: 1 /1;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 2% 2%;
   padding: 1% 1%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -63,7 +63,6 @@
   height: 80%;
   width: 50%;
   margin-top: 4%;
-  border: black 1px solid;
   display:flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -135,6 +134,41 @@
   padding: 3% 3%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.resume-education-container{
+  height: 80%;
+  width: 50%;
+  margin-top: 4%;
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.resume-education-description{
+  height: 27%;
+  width: 70%;
+}
+
+.resume-education-ca-icon{
+  background-image: url(../images/CA.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25%;
+  width: 25%;
+  margin: 2%;
+}
+
+.resume-education-rmit-icon{
+  background-image: url(../images/RMIT.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25%;
+  width: 25%;
+  margin: 2%;
+}
+
+
 
 .resume-skills{
   grid-row: 1 / 1;
