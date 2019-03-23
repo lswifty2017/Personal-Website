@@ -52,11 +52,19 @@ a{
   display: flex;
 } */
 
-/* @media only screen and (max-width: 600px){
-  .navbar-container a {
-    float: none;
-    width: 100%;
-  }
-} */
+/* -------------------- Mobile Functionality -------------------------- */
 
+
+
+.mobile-navbar-hamburger{
+  background: url(../images/Menu\ Icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 10%;
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  display: none;
+}
 
