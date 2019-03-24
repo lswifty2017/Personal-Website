@@ -1,6 +1,6 @@
 # Personal-Website
 
-![My Website](https://liamswift.me)
+<https://liamswift.me>
 
 
 
