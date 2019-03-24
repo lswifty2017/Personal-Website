@@ -1,9 +1,5 @@
 @media only screen and (max-width: 500px) {
   
-  h1 {
-    color: red;
-  }
-
   .navbar-container{
     display: none;
   }
@@ -77,6 +73,56 @@
     flex-wrap: wrap;
   }
 
+  .resume-container{
+    background-color: rgba(211, 220, 225, 1);
+    height: 150vh; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resume-grid{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+  }
+
+  .resume-name{
+    padding-bottom: 4%;
+  }
+
+  .resume-experience-container{
+    width: 80%;
+  }
+
+  .resume-experience{
+    border-bottom: black solid 1px;
+    padding-bottom: 6%;
+  }
+
+
+  .resume-education-container{
+    width: 80%;
+  }
+  
+  .resume-education{
+    border-bottom: black solid 1px;
+    padding-bottom: 6%;
+  }
+
+  .resume-skills{
+    padding-bottom: 6%;
+  }
+
+  .resume-interests{
+    height: 7%;
+    border-bottom: black solid 1px;
+  }
+
+
+
   .form-textbox{
     height: 90%;
     width: 80%;
@@ -94,7 +140,7 @@
     width: 80%;
     border: grey solid 1px;
     font-size: 90%;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 2%;
     background-color: rgba(249, 253, 255, 1)
   }
@@ -103,7 +149,7 @@
     width: 80%;
     height: 5%;
     border: grey solid 1px;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 2%;
     font-size: 90%;
     background-color: rgba(249, 253, 255, 1);
