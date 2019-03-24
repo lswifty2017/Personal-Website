@@ -20,4 +20,4 @@ Reflect on one aspect of the development of internet technologies and how it has
 
 <img src="About Me (Wireframes)" alt="some text"  width="4200" height="4200">
 
-![Trello Board](./images/Trello-Board.jpg)
+<img src="/images/Trello-Board.png" alt="Trello Board"/>
