@@ -18,6 +18,18 @@ Reflect on one aspect of the development of internet technologies and how it has
 
 #Wireframes
 
-<img src="/wireframes/about-me.pdf" alt="about me"  width="4200" height="4200">
+<img src="/wireframes/home.png" alt="home">
+
+<img src="/wireframes/about-me.png" alt="about me">
+
+<img src="/wireframes/portfolio.png" alt="portfolio">
+
+<img src="/wireframes/resume.png" alt="resume">
+
+<img src="/wireframes/contact.png" alt="contact">
+
+
+
+# Trello Board Snapshot
 
 <img src="/images/Trello-Board.png" alt="Trello Board"/>
