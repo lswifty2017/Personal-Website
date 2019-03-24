@@ -12,24 +12,35 @@
 
   <body>
 
+    <div id = "sidebar-container">
+      <div class="sidebar-container">
+        <a href = "mailto:l.swift94@gmail.com">
+          <div class="sidebar-email"></div>
+        </a>
+        <a href = "https://www.linkedin.com/in/liam-swift/" target="_blank">
+          <div class="sidebar-linkedin"></div>
+        </a>
+        <a href = "https://github.com/lswifty2017" target="_blank">
+          <div class="sidebar-github"></div>
+        </a>
+      </div>
+    </div>
 
     <div id = "home">
-      <div class="mobile-navbar-hamburger"></div>
+      <div class="mobile-navbar-hamburger">
+          <input class="dropdown-container" type="checkbox" id="mobile-navbar-hamburger" aria-hidden="true" hidden />
+      </div>
+
       <div class = "homepage-container">
-        
-        <div id = "sidebar-container">
-          <div class="sidebar-container">
-            <a href = "mailto:l.swift94@gmail.com">
-              <div class="sidebar-email"></div>
-            </a>
-            <a href = "https://www.linkedin.com/in/liam-swift/" target="_blank">
-              <div class="sidebar-linkedin"></div>
-            </a>
-            <a href = "https://github.com/lswifty2017" target="_blank">
-              <div class="sidebar-github"></div>
-            </a>
-          </div>
-        </div>
+
+          <!-- <div class="dropdown">
+            <button onclick="#" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> -->
 
         <a href = "http://www.google.com" target = "_blank">
           <figure class="ball"></figure>
@@ -58,7 +69,6 @@
             <a href="#contact">
                 <div class = "navbar-options"> Contact </div>
             </a> 
-            <!-- <div class="dropdown"><i class="fas fa-caret-down dropdown-caret"></i></div>    -->
           </div>
           
         </nav>
@@ -204,7 +214,10 @@
           prevScrollpos = currentScrollPos;
   }
   </script> -->
-   
+
+
+
+
   </body> 
 
 

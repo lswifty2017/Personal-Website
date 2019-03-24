@@ -15,12 +15,112 @@
   .sidebar-container{
     width: 50px;
     height: 130px;
-    /* right: 45%;
-    top: 80vh; */
+    right: 3%;
+    top: 80%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
   }
+
+  .mobile-navbar-hamburger{
+    display: block;
+  }
+
+  .aboutme-background{
+    background-color: white;
+    width: 100vw;
+    height: 120vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aboutme-container{
+    width: 90%;
+    height: 90%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .aboutme-image{
+    background-image: url(../images/opera-house.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 90%;
+    display:flex;
+    padding: 5% 5% 5% 5%;
+    margin-bottom: 5%;
+  }
+
+  .aboutme-description-container{
+    width: 100%;
+    height: 200%;
+    /* border: black 1px dotted; */
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .aboutme-description-paragraph{
+    width: 90%;
+    height: 80%;
+    /* border: black 1px dotted; */
+    display:flex;
+    align-items: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .form-textbox{
+    height: 90%;
+    width: 80%;
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    /* border: black 1px solid; */
+  }
+  
+  .form-message{
+    height: 30%;
+    width: 80%;
+    border: grey solid 1px;
+    font-size: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgba(249, 253, 255, 1)
+  }
+  
+  input[type=text] {
+    width: 80%;
+    height: 5%;
+    border: grey solid 1px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 90%;
+    background-color: rgba(249, 253, 255, 1);
+  }
+  
+  input[type=submit]{
+    width: 40%;
+    height: 5%;
+    cursor: pointer;
+    background: rgba(249, 253, 255, 1);
+    padding-bottom: 1%;
+    font-size: 90%;
+  }
+
+
+
+
+
 
 }
